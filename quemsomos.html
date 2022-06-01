@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ernesto-Guns</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" href="./images/icone.png">
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="header"></div>
+    <!-- inicio main -->
+    <main>
+        <main-secondary class="main-secundary">
+            <div class="quem-somos"> 
+                <h1>Ernesto Guns</h1>
+            
+                 <h2>Escola de Capacitação em Armas de Fogo, Comércio de Armas e Munições</h2>
+    
+                 <h3>"NOSSA ESPECIALIDADE É A SUA SEGURANÇA." </h3>
+    
+                <div class="embed">
+                  <iframe src="https://www.youtube.com/embed/Il13Vokmqec"></iframe>
+                </div>
+            </div>
+        </main-secondary>
+    </main>
+    <!-- final main -->
+    <div id="footer"></div>
+  </body>
+</html>
