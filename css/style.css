@@ -18,7 +18,20 @@ h1{
 
 .sobre {
     background-color: gainsboro;
-    margin-top: 10px;
+    margin-top: 1px;
     padding-top: 5px;
     color: black;
+}
+
+.contato {
+    background-color: gray;
+    padding-top: 5px;
+    color: black;
+}
+
+.footer {
+    background-color: Black;
+    padding-top: 5px;
+    padding-block-end: 0px;
+    color: white;
 }
