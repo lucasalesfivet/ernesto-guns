@@ -32,7 +32,11 @@ h1{
 .footer {
     background-color: Black;
     padding-top: 5px;
-    padding-block-end: 0px;
     color: white;
+    width: 100%;
+    position: absolute;
+}
+
+.container p1 {
     text-align: center;
 }
